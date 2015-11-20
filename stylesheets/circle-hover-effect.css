@@ -1,0 +1,855 @@
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	cursor: default;
+}
+
+.ch-info-wrap{ /*possible place for square this is for ch-info-wrap the 1st one 00, 02,05,07,08,10*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 50%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/bg.jpg); /*this is the shadow*/
+	box-shadow: 
+		0 0 0 10px rgba(255,255,255,0.2), 
+		inset 0 0 2px rgba(115,114, 23, 0.8);
+
+		/*0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+/*ch-info-wrap01*/ /*left off here*/
+
+.ch-info-wrap01 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/kellygreen.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+/*end of ch-info-wrap01*/
+
+.ch-info-wrap01:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+
+
+.ch-info-wrap03 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/medblue.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+/*end of ch-info-wrap03*/
+
+
+
+/*end of ch-info-wrap03*/
+
+.ch-info-wrap04 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/drkpurple.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+/*end of ch-info-wrap04*/
+
+.ch-info-wrap04:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+
+
+.ch-info-wrap06 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/lblue.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+/*end of ch-info-wrap06*/
+
+.ch-info-wrap06:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+
+
+.ch-info-wrap09 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/byellow.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+/*end of ch-info-wrap09*/
+
+.ch-info-wrap09:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+
+
+.ch-info-wrap11 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #f9f9f9 url(../images/kellygreen.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+
+.ch-info-wrap11:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+
+
+
+
+/*art page square background*/
+
+.ch-info-wrap011 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #cc66ff url(../images/orange.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+
+
+.ch-info-wrap011:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+/*end of art page - art game 11 ch-info-wrap011*/
+
+/*art subject circle -art page*/
+
+.ch-info-wrap12 { /*possible place for square*/
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 1%; /*50%= circle; /*makes it into a round square at 1%*/
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+
+	
+	background: #663399 url(../images/drkpurple.jpg); /*this is the white square box shadow below it has to be at 1% up top to work*/
+	/*box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);*/
+
+}
+
+
+
+.ch-info-wrap12:hover{
+background: #f9f9f9 url(../images/medblue.jpg);
+	
+}
+/*end of art circle/square page ch-info-wrap011*/
+
+/*circle*/
+
+.ch-info{
+	position: absolute;
+	width: 210px; /*180px;*/
+	height: 210px; /*180px;*/
+	border-radius: 50%; /*for a circle*/
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+		
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	text-align: center;
+}
+
+.ch-info > div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%; /*inner circle*/
+	background-position: center center;
+
+	-webkit-backface-visibility: hidden; 
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.ch-info .ch-info-back {
+	-webkit-transform: rotate3d(0,1,0,180deg);
+	-moz-transform: rotate3d(0,1,0,180deg);
+	-o-transform: rotate3d(0,1,0,180deg);
+	-ms-transform: rotate3d(0,1,0,180deg);
+	transform: rotate3d(0,1,0,180deg);
+	
+	background: #3399ff; /*#434343;*/ /*changes color of back circles*/
+}
+
+
+/*homepage index.html*/
+
+.ch-img-1 { 
+	background-image: url(../images/avatar02.jpg);
+}
+
+.ch-img-2 { 
+	background-image: url(../images/trivia.jpg);
+}
+
+.ch-img-3 { 
+	background-image: url(../images/kidsportal03.jpg);
+}
+
+.ch-img-4 { 
+	background-image: url(../images/parent.jpg);
+}
+
+.ch-img-5 { 
+	background-image: url(../images/writing.jpg);
+}
+
+.ch-img-6 { 
+	background-image: url(../images/reading.jpg);
+}
+
+.ch-img-7 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-8 { 
+	background-image: url(../images/science.jpg);
+}
+
+.ch-img-9 { 
+	background-image: url(../images/math.jpg);
+}
+
+.ch-img-10 { 
+	background-image: url(../images/art.jpg);
+}
+
+.ch-img-11 { 
+	background-image: url(../images/music.jpg);
+}
+
+.ch-img-12{ 
+	background-image: url(../images/spelling.jpg);
+}
+
+
+/*end of homepage*/
+
+/*Reading reading.html*/
+
+
+.ch-img-13 { 
+	background-image: url(../images/bluenoodle.jpg); /*bluenoodle*/
+}
+
+.ch-img-14 { 
+	background-image: url(../images/bn.jpg); /*game1*/
+}
+
+.ch-img-15 { 
+	background-image: url(../images/bn.jpg); /*game2*/
+}
+
+.ch-img-16 { 
+	background-image: url(../images/bn.jpg); /*game 3*/
+}
+
+.ch-img-17 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-18 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-19 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-20 { 
+	background-image: url(../images/bn.jpg);
+}
+
+.ch-img-21 { 
+	background-image: url(../images/bn.jpg);
+}
+
+
+/*end ofreadingpage*/
+
+/*landing page ads*/
+
+.ch-img-22 { 
+	background-image: url(../images/offer.jpg);
+}
+
+.ch-img-23 { 
+	background-image: url(../images/safe.jpg);
+}
+
+.ch-img-24 { 
+	background-image: url(../images/grade.jpg);
+}
+
+/*end of landing page ads*/
+
+/*art pages*/
+
+.ch-img-01 { 
+	background-image: url(../images/art01.jpg);
+}
+
+.ch-img-02 { 
+	background-image: url(../images/art02.jpg);
+}
+
+.ch-img-03 { 
+	background-image: url(../images/art03.jpg);
+}
+
+.ch-img-04 { 
+	background-image: url(../images/art04.jpg);
+}
+
+.ch-img-05{ 
+	background-image: url(../images/art05.jpg);
+}
+
+.ch-img-06 { 
+	background-image: url(../images/art06.jpg);
+}
+
+.ch-img-07 { 
+	background-image: url(../images/art07.jpg);
+}
+
+.ch-img-08 { 
+	background-image: url(../images/art08.jpg);
+}
+
+.ch-img-09{ 
+	background-image: url(../images/art09.jpg);
+}
+
+.ch-img-010 { 
+	background-image: url(../images/art10.jpg);
+}
+
+
+/*end of art pages*/
+
+/*my portal page */
+
+.ch-img-p01{ 
+	background-image: url(../images/treasure.jpg);
+}
+
+.ch-img-p02{ 
+	background-image: url(../images/p2.jpg);
+}
+
+.ch-img-p03{ 
+	background-image: url(../images/p3.jpg);
+}
+
+.ch-img-p04{ 
+	background-image: url(../images/p4.jpg);
+}
+
+.ch-img-p05{ 
+	background-image: url(../images/p5.jpg);
+}
+
+.ch-img-p06{ 
+	background-image: url(../images/p6.jpg);
+}
+
+.ch-img-p07{ 
+	background-image: url(../images/p7.jpg);
+}
+
+.ch-img-p08{ 
+	background-image: url(../images/p8.jpg);
+}
+
+.ch-img-p09{ 
+	background-image: url(../images/p9.jpg);
+}
+
+
+/*end of my portal page circles*/
+
+/*kids portal*/
+
+
+.ch-img-k00{ 
+	background-image: url(../images/bnc.jpg); /*bluenoodle challenge*/
+}
+
+
+.ch-img-k01{ 
+	background-image: url(../images/rac01.jpg); /*racoon video*/
+}
+
+.ch-img-k02{ 
+	background-image: url(../images/owl.jpg); /*owl video*/
+}
+
+.ch-img-k03{ 
+	background-image: url(../images/bat.jpg); /*batsl video*/
+}
+
+.ch-img-k04{ 
+	background-image: url(../images/po.jpg); /*opossum video*/
+}
+
+/*kids drawing work*/
+
+.ch-img-k05{ 
+	background-image: url(../images/draw1.jpg); /*racoon, owl, bat and oppossum kids drawings*/
+}
+
+.ch-img-k06{ 
+	background-image: url(../images/draw2.jpg);
+}
+
+.ch-img-k07{ 
+	background-image: url(../images/draw3.jpg); 
+}
+
+.ch-img-k08{ 
+	background-image: url(../images/draw4.jpg); 
+}
+
+
+
+
+/*reading page*/
+
+.ch-img-r00{ 
+	background-image: url(../images/r00.jpg); /*reading0*/
+}
+
+
+.ch-img-r01{ 
+	background-image: url(../images/r01.jpg); /*reading1*/
+}
+
+.ch-img-r02{ 
+	background-image: url(../images/r02.jpg); /*reading2*/
+}
+
+.ch-img-r03{ 
+	background-image: url(../images/r03.jpg); /*reading3*/
+}
+
+.ch-img-r04{ 
+	background-image: url(../images/r04.jpg); /*reading3*/
+}
+
+.ch-img-r05{ 
+	background-image: url(../images/r05.jpg); /*reading4*/
+}
+
+.ch-img-r06{ 
+	background-image: url(../images/r06.jpg); /*reading5*/
+}
+
+.ch-img-r07{ 
+	background-image: url(../images/r07.jpg); /*reading5*/
+}
+
+/*writing page*/
+
+.ch-img-w00{ 
+	background-image: url(../images/w00.jpg); /*writing0*/
+}
+
+
+.ch-img-w01{ 
+	background-image: url(../images/w01.jpg); /*writing1*/
+}
+
+.ch-img-w02{ 
+	background-image: url(../images/w02.jpg); /*writing2*/
+}
+
+.ch-img-w03{ 
+	background-image: url(../images/w03.jpg); /*writing3*/
+}
+
+.ch-img-w04{ 
+	background-image: url(../images/w04.jpg); /*writing3*/
+}
+
+.ch-img-w05{ 
+	background-image: url(../images/w05.jpg); /*writing4*/
+}
+
+.ch-img-w06{ 
+	background-image: url(../images/w06.jpg); /*reading5*/
+}
+
+.ch-img-w07{ 
+	background-image: url(../images/w07.jpg); /*reading5*/
+}
+
+
+/*science page*/
+
+
+.ch-img-sc00{ 
+	background-image: url(../images/sc00.jpg); /*writing0*/
+}
+
+
+.ch-img-sc01{ 
+	background-image: url(../images/sc01.jpg); /*writing1*/
+}
+
+.ch-img-sc02{ 
+	background-image: url(../images/sc02.jpg); /*writing2*/
+}
+
+.ch-img-sc03{ 
+	background-image: url(../images/sc03.jpg); /*writing3*/
+}
+
+.ch-img-sc04{ 
+	background-image: url(../images/sc04.jpg); /*writing3*/
+}
+
+.ch-img-sc05{ 
+	background-image: url(../images/sc05.jpg); /*writing4*/
+}
+
+.ch-img-sc06{ 
+	background-image: url(../images/sc06.jpg); /*reading5*/
+}
+
+.ch-img-sc07{ 
+	background-image: url(../images/sc07.jpg); /*reading5*/
+}
+
+
+/*spelling page*/
+
+.ch-img-sp00{ 
+	background-image: url(../images/sp00.jpg); /*speling00*/
+}
+
+
+.ch-img-sp01{ 
+	background-image: url(../images/sp01.jpg); /*spelling1*/
+}
+
+.ch-img-sp02{ 
+	background-image: url(../images/sp02.jpg); /*spelling2*/
+}
+
+.ch-img-sp03{ 
+	background-image: url(../images/sp03.jpg); /*spelling3*/
+}
+
+.ch-img-sp04{ 
+	background-image: url(../images/sp04.jpg); /*spelling4*/
+}
+
+.ch-img-sp05{ 
+	background-image: url(../images/sp05.jpg); /*spelling*/
+}
+
+.ch-img-sp06{ 
+	background-image: url(../images/sp06.jpg); /*spelling*/
+}
+
+.ch-img-sp07{ 
+	background-image: url(../images/sp07.jpg); /*spelling*/
+}
+
+/*math*/
+
+.ch-img-m00{ 
+	background-image: url(../images/m00.jpg); /*speling00*/
+}
+
+
+.ch-img-m01{ 
+	background-image: url(../images/m01.jpg); /*spelling1*/
+}
+
+.ch-img-m02{ 
+	background-image: url(../images/m02.jpg); /*spelling2*/
+}
+
+.ch-img-m03{ 
+	background-image: url(../images/m03.jpg); /*spelling3*/
+}
+
+.ch-img-m04{ 
+	background-image: url(../images/m04.jpg); /*spelling4*/
+}
+
+.ch-img-m05{ 
+	background-image: url(../images/m05.jpg); /*spelling*/
+}
+
+.ch-img-m06{ 
+	background-image: url(../images/m06.jpg); /*spelling*/
+}
+
+/*music & drama page*/
+
+.ch-img-md00{ 
+	background-image: url(../images/md00.jpg); /*speling00*/
+}
+
+
+.ch-img-md01{ 
+	background-image: url(../images/md01.jpg); /*spelling1*/
+}
+
+.ch-img-md02{ 
+	background-image: url(../images/md02.jpg); /*spelling2*/
+}
+
+.ch-img-md03{ 
+	background-image: url(../images/md03.jpg); /*spelling3*/
+}
+
+.ch-img-md04{ 
+	background-image: url(../images/md04.jpg); /*spelling4*/
+}
+
+.ch-img-md05{ 
+	background-image: url(../images/md05.jpg); /*spelling*/
+}
+
+.ch-img-md06{ 
+	background-image: url(../images/md06.jpg); /*spelling*/
+}
+
+
+  
+.ch-info h3 {  /*h3 inside circle*/
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 26px;
+	letter-spacing: .2em;
+	font-size: 20px;
+	padding: 40px 30px 0 30px;
+	font-family: 'Unkempt', cursive;
+	font-weight: normal;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+
+
+.ch-item:hover .ch-info-wrap { /*this take a way the blue when it turns*/
+	box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+		
+}
+
+.ch-item:hover .ch-info {
+	-webkit-transform: rotate3d(0,1,0,-180deg);
+	-moz-transform: rotate3d(0,1,0,-180deg);
+	-o-transform: rotate3d(0,1,0,-180deg);
+	-ms-transform: rotate3d(0,1,0,-180deg);
+	transform: rotate3d(0,1,0,-180deg);
+}
+
+.ch-info-back nav a{ /*back of circle link text*/
+	margin-bottom: 10px; 
+	font-size: 18px;
+	line-height: 18px;
+	letter-spacing: .1em;
+	
+}

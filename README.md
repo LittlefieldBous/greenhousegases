@@ -1,2 +1,2 @@
-# greenhousegases
-Simple click and drag e-learning game to teach students about molecules that  help make up the primary green house gases
+# greenhousegas
+A simple click and drag game made from flash - adapted from Nasa's learning unit on greenhouse gases

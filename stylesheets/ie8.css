@@ -1,0 +1,11 @@
+.carousel-circle img {
+  width: 300px; 
+}
+
+#contact textarea, #contact input[type="text"] {
+  width: 260px;
+}
+
+form .btn {
+  margin-right: 70px;
+}
